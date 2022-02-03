@@ -39,14 +39,14 @@
 提示：密码不要设置得过于简单，容易被破解。密钥文件要保存好，以防万一！
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/jiangwei7king/Oracle-warp/main/root.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/kyleyh838/Oracle-warp/main/root.sh)
 ```
 -----------------------------------------------------------------------------------------------------
 ### 整合WARP及其他功能！全新一键脚本(功能继续添加中……)：
 
 ## 一、支持KVM X86架构的WARP多功能脚本
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/multiX86.sh && chmod +x multiX86.sh && ./multiX86.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/kyleyh838/Oracle-warp/main/multiX86.sh && chmod +x multiX86.sh && ./multiX86.sh
 ```
 #### 进入脚本快捷方式（如脚本更新，请先执行上面的完整脚本）
 ```
@@ -55,7 +55,7 @@ bash ~/multiX86.sh
 ------------------------------------------------------------------------------------------------------
 ## 二、支持KVM ARM架构的WARP多功能脚本
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/multiARM.sh && chmod +x multiARM.sh && ./multiARM.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/kyleyh838/Oracle-warp/main/multiARM.sh && chmod +x multiARM.sh && ./multiARM.sh
 ```
 
 #### 进入脚本快捷方式（如脚本更新，请先执行上面的完整脚本）
