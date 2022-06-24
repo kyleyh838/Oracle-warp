@@ -12,3 +12,9 @@ sudo sed -i "s@^#Port.*@&\nPort $port@" /etc/ssh/sshd_config;
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
 sudo systemctl restart ssh.service
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P FORWARD ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+sudo iptables -F
+sudo apt-get purge netfilter-persistent
+sudo reboot
